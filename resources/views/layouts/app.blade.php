@@ -13,7 +13,11 @@
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
 
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{url('/bootstrap/bootstrap.min.css')}}">
+
     <!-- Scripts -->
+    <script src={{url('/bootstrap/bootstrap.bundle.min.js')}}></script>
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
